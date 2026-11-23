@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/generated/**
+    - "**/*.g.dart"
+    - "**/*.gr.dart"
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_print: true
